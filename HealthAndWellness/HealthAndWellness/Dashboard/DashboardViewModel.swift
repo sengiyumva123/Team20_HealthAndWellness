@@ -9,4 +9,5 @@ import SwiftUI
 
 class DashboardViewModel:ObservableObject, Identifiable{
     var showPopup:Bool = false;
+    var logDreamBool:Bool = false;
 }

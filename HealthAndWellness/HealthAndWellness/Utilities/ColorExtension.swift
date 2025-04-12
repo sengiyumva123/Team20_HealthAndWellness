@@ -47,5 +47,11 @@ extension Color{
     static var GunPowder:Color{
         return Color(hex: "#3c3c58")
     }
+    static var lightPurple:Color{
+        return Color(hex: "#CBC3E3")
+    }
+    static var midPurple:Color{
+        return Color(hex: "#3a006a")
+    }
     
 }
