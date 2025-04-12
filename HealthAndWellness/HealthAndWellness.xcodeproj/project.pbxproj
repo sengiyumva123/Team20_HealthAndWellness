@@ -29,9 +29,30 @@
 		AA544F122DAACFA700C6E21A /* HealthAndWellnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthAndWellnessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AA544F842DAAF6F700C6E21A /* Exceptions for "HealthAndWellness" folder in "HealthAndWellnessTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Dashboard/DashboardDream.swift,
+			);
+			target = AA544F072DAACFA700C6E21A /* HealthAndWellnessTests */;
+		};
+		AA544F852DAAF6F700C6E21A /* Exceptions for "HealthAndWellness" folder in "HealthAndWellnessUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Dashboard/DashboardDream.swift,
+			);
+			target = AA544F112DAACFA700C6E21A /* HealthAndWellnessUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		AA544EFD2DAACFA400C6E21A /* HealthAndWellness */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AA544F842DAAF6F700C6E21A /* Exceptions for "HealthAndWellness" folder in "HealthAndWellnessTests" target */,
+				AA544F852DAAF6F700C6E21A /* Exceptions for "HealthAndWellness" folder in "HealthAndWellnessUITests" target */,
+			);
 			path = HealthAndWellness;
 			sourceTree = "<group>";
 		};
